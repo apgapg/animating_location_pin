@@ -1,9 +1,8 @@
 # Animating Location Pin [![GitHub stars](https://img.shields.io/github/stars/apgapg/animating_location_pin.svg?style=social)](https://github.com/apgapg/animating_location_pin) [![Twitter Follow](https://img.shields.io/twitter/url/https/@ayushpgupta.svg?style=social)](https://twitter.com/ayushpgupta) ![GitHub last commit](https://img.shields.io/github/last-commit/apgapg/animating_location_pin.svg) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://play.google.com/store/apps/details?id=com.coddu.flutterprofile)[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/apgapg/animating_location_pin)
 
-
 This Flutter package provides a Animating Location Widget which can be used while fetching device location.
 
-<img src="https://raw.githubusercontent.com/apgapg/animating_location_pin/master/src/s1.gif"  height = "400" alt="PieChart">
+<img src="https://raw.githubusercontent.com/apgapg/animating_location_pin/master/src/s.gif"  height = "400" alt="PieChart">
 
 # 💻 Installation
 In the `dependencies:` section of your `pubspec.yaml`, add the following line:
@@ -42,26 +41,16 @@ AnimatingLocationPin(
 ),
 ```
 ### Assets used are
-![]() 
+<img src="https://raw.githubusercontent.com/apgapg/animating_location_pin/master/src/pin.png" height="100"> 
+<img src="https://raw.githubusercontent.com/apgapg/animating_location_pin/master/src/shadow.png" height="100">  
+
 ### Note
 - Although this animation can be achieved easily with Flare Animation, but this widget involves a good learning to coding such animation manually in flutter 
-
-<img src="https://raw.githubusercontent.com/apgapg/animating_location_pin/master/src/s2.gif"  height = "400" alt="PieChart"> <img src="https://raw.githubusercontent.com/apgapg/animating_location_pin/master/src/s1.gif" style="margin: 0px 4px"  height = "400" alt="PieChart">
-
-  
-- Popup to scroll with scroll gesture if this widget is used inside ScrollView  
-
-<img src="https://raw.githubusercontent.com/apgapg/animating_location_pin/master/src/s3.gif"  height = "400" alt="PieChart">
-
-## TODO
-
-- [ ] Add support for selecting multiple items
-- [ ] Add visibility bool to show selected item widget
-- [ ] Give support for onSelectedItem method to return selected item(s) directly
 
 # ⭐ My Flutter Packages
 - [pie_chart](https://pub.dartlang.org/packages/pie_chart)  [![GitHub stars](https://img.shields.io/github/stars/apgapg/pie_chart.svg?style=social)](https://github.com/apgapg/pie_chart)  Flutter Pie Chart with cool animation.
 - [avatar_glow](https://pub.dartlang.org/packages/avatar_glow)  [![GitHub stars](https://img.shields.io/github/stars/apgapg/avatar_glow.svg?style=social)](https://github.com/apgapg/avatar_glow)  Flutter Avatar Glow Widget with glowing animation.
+- [search_widget](https://pub.dartlang.org/packages/search_widget)  [![GitHub stars](https://img.shields.io/github/stars/apgapg/search_widget.svg?style=social)](https://github.com/apgapg/search_widget)  Flutter Search Widget for selecting an option from list.
 
 # ⭐ My Flutter Apps
 - [flutter_profile](https://github.com/apgapg/flutter_profile)  [![GitHub stars](https://img.shields.io/github/stars/apgapg/flutter_profile.svg?style=social)](https://github.com/apgapg/flutter_profile)  Showcase My Portfolio: Ayush P Gupta on Playstore.
