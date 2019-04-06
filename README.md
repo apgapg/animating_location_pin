@@ -1,6 +1,6 @@
 # Animating Location Pin [![GitHub stars](https://img.shields.io/github/stars/apgapg/animating_location_pin.svg?style=social)](https://github.com/apgapg/animating_location_pin) [![Twitter Follow](https://img.shields.io/twitter/url/https/@ayushpgupta.svg?style=social)](https://twitter.com/ayushpgupta) ![GitHub last commit](https://img.shields.io/github/last-commit/apgapg/animating_location_pin.svg) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://play.google.com/store/apps/details?id=com.coddu.flutterprofile)[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/apgapg/animating_location_pin)
 
-This Flutter package provides a Animating Location Widget which can be used while fetching device location.
+This Flutter package provides a Animating Location Pin Widget which can be used while fetching device location.
 
 <img src="https://raw.githubusercontent.com/apgapg/animating_location_pin/master/src/s.gif"  height = "400" alt="PieChart">
 

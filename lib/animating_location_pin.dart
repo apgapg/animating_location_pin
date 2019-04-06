@@ -23,7 +23,8 @@ class AnimatingLocationPin extends StatefulWidget {
   _AnimatingLocationPinState createState() => _AnimatingLocationPinState();
 }
 
-class _AnimatingLocationPinState extends State<AnimatingLocationPin> with SingleTickerProviderStateMixin {
+class _AnimatingLocationPinState extends State<AnimatingLocationPin>
+    with SingleTickerProviderStateMixin {
   static const double pinSize = 80.0;
   static const double shadowSizeFactor = 0.43;
   AnimationController _controller;
@@ -33,9 +34,12 @@ class _AnimatingLocationPinState extends State<AnimatingLocationPin> with Single
 
   @override
   void initState() {
-    _controller = AnimationController(duration: widget.duration ?? Duration(milliseconds: 500), vsync: this);
-    final Animation curve = CurvedAnimation(parent: _controller, curve: Curves.decelerate);
-    translationAnim = Tween(begin: 0.0, end: -widget.pinJumpHeight).animate(curve);
+    _controller = AnimationController(
+        duration: widget.duration ?? Duration(milliseconds: 500), vsync: this);
+    final Animation curve =
+        CurvedAnimation(parent: _controller, curve: Curves.decelerate);
+    translationAnim =
+        Tween(begin: 0.0, end: -widget.pinJumpHeight).animate(curve);
     opacityAnim = Tween(begin: 0.6, end: 0.3).animate(curve);
     scaleAnim = Tween(begin: 1.0, end: 1.3).animate(curve);
     _controller.addStatusListener((status) async {
@@ -87,11 +91,14 @@ class _AnimatingLocationPinState extends State<AnimatingLocationPin> with Single
                 bottom: 0.0,
                 child: Transform.scale(
                   scale: scaleAnim.value,
-                  origin: Offset(pinSize * shadowSizeFactor, pinSize * shadowSizeFactor),
+                  origin: Offset(
+                      pinSize * shadowSizeFactor, pinSize * shadowSizeFactor),
                   child: Opacity(
                     opacity: opacityAnim.value,
                     child: Transform.translate(
-                      offset: Offset((translationAnim.value * 0.3) - (pinSize * 0.5), -2+translationAnim.value * 0.3),
+                      offset: Offset(
+                          (translationAnim.value * 0.3) - (pinSize * 0.5),
+                          -2 + translationAnim.value * 0.3),
                       child: widget.shadowAsset != null
                           ? Image.asset(
                               widget.shadowAsset,
