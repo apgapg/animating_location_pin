@@ -2,7 +2,7 @@ name: animating_location_pin
 description: A Flutter package providing Animating Location Pin Widget which can be used while fetching device location.
 version: 0.1.0
 author: Ayush P Gupta <ayushpguptaapg@gmail.com>
-homepage: https://github.com/apgapg/search_widget
+homepage: https://github.com/apgapg/animating_location_pin
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
